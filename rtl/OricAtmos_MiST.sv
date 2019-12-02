@@ -18,13 +18,13 @@ module OricAtmos_MiST(
    input         CONF_DATA0
 	);
 
-`include "build_id.v"
-localparam CONF_STR = {
-	"OricAtmos;;",
-	"O23,Scandoubler Fx,None,CRT 25%,CRT 50%,CRT 75%;",
-	"T9,Reset;",
-	"V,v1.00.",`BUILD_DATE
-};
+//`include "build_id.v"
+//localparam CONF_STR = {
+//	"OricAtmos;;",
+//	"O23,Scandoubler Fx,None,CRT 25%,CRT 50%,CRT 75%;",
+//	"T9,Reset;",
+//	"V,v1.00.",`BUILD_DATE
+//};
 wire clk_24;
 wire clk_ram;
 wire        key_pressed;
